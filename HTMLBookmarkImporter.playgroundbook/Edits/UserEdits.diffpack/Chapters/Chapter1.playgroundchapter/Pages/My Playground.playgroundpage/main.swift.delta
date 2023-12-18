@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Diff</key>
+	<array>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>let htmlString = """
+   &lt;!DOCTYPE NETSCAPE-Bookmark-file-1&gt;
+   &lt;!-- This is an automatically generated file.
+        It will be read and overwritten.
+        DO NOT EDIT! --&gt;
+   &lt;META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=UTF-8"&gt;
+   &lt;TITLE&gt;Bookmarks&lt;/TITLE&gt;
+   &lt;H1&gt;Bookmarks&lt;/H1&gt;
+   &lt;DL&gt;&lt;p&gt;
+       &lt;DT&gt;&lt;H3 ADD_DATE="1702636029" LAST_MODIFIED="1702636115" PERSONAL_TOOLBAR_FOLDER="true"&gt;Favorites Bar&lt;/H3&gt;
+       &lt;DL&gt;&lt;p&gt;
+       &lt;/DL&gt;&lt;p&gt;
+       &lt;DT&gt;&lt;H3 ADD_DATE="1702636143" LAST_MODIFIED="1702636172"&gt;search&lt;/H3&gt;
+       &lt;DL&gt;&lt;p&gt;
+           &lt;DT&gt;&lt;A HREF="https://www.bing.com/" ADD_DATE="1702636115" ICON="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABrElEQVQ4jc2Sv0tbURTHv+fea9575of6F3ToVErV2ckfS+MP6JJRELQOhRfQSQfRouLcgEsKKggOOggOcZBE26E4uEhx6FChdGkdxDyfiSZ593TICzHymjp08Ludy/d87veec4H/rwUBMNVrpurZ41RvHFs3YWeMRlCzBl/hyYNXslUtktYjVYfarRTd9zfpoa9NAEwAcejdpxeWIY+hKwazTgNcESTfMildLJd6Sqv9ZzVvDdDwNlOWV0jIEoqFl06qP+mkBqb52u0iIciUvBIU2gcQY/KkhWQoru/czXx68DsSZyHEM0Z+bfhcl242iNRrxDMGAA4AAPh5IcBMABQAwP1BiDyrmhkeAIGI29B8Pw8B4FgyuyeU1ctXl935teFzAGizs88p1PpZlws5JzUw+nAGyh8iAMKtR7OW4C8UjZzGktmPgkULg8fJbLPorvALAJDYEdiB9/c1Tux3qrA1D/beAEIweAuaf8tw+5R368w5H/qWgtaJ+jp92RkDY4dmrYwlj+Y6Zk45aueWgy6+p4CvnNiWABC1c8sxO/cNvYeqCeAf6XzY09EfOYea735J+IkAAAAASUVORK5CYII="&gt;Bing&lt;/A&gt;
+           &lt;DT&gt;&lt;A HREF="https://duckduckgo.com/&amp;" ADD_DATE="1702636151" ICON="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAADQklEQVQ4jaWTT0xbdQDHP+9f+17/UGAtBQIkmywDVERnZoJmISaCMcAyN5w4EndQY3bw5ElRSdBwWswOxh3mdIkeAJ0kbstwZMkuiH9QMgfbCDB0UrLSFvra0vb1vffzYDTj7Of2vXxO3w/8T6QHx3Lf/pDQPIeKknLCk88/rRVLnoKuZ12f54ZXckaMTetazXezeQnEDoEA6e7hA61SuWc4UL+vR3/hOPreR5EcB8cu4mxtYU2Nk57/YdLeMt/b0/zzrDSE+59g5diBx5RdkcnwoRNRpWk/pdgS29cukhkbQ44ECb70BsHn+2B9hY0vT6ey68s9zV/fnAaQ73Z06GrIN1w18FbUUQxiAx3YsWUq3jlN7blvUMNVmKNn+Ku/HSuTJdL3eqU/XDO00rs7CiA7dXZHoPmpHrm+ifi7r6F392O8+CYaYDzRTnjkLJ6mFggFiQ+fxAk3ENrd/Bz+SM9YH4pcRAx6u/rJTI6i1DSgvHySW4sJkps5XAHznkaSRj2qUBGKQebKKNqzR5CCwd6H51sUWcpbbWp5Jeb4ZyihcuRQGNPcJp6ykCWIxZMUaqvwP+JDb9Ip/ngVbXczsqweLAuZimoUC37FF8COJ5Cr6/FkU7S1VKPZ93BXx+mVHPKNf2KVu4gNjfQvy+AKVJnQetiV1JLmKQnhat59e7FzJvn5GaKdRyFzG2fpbVLTVTjCh1ypkZsTyKEIrrVNSYg1KyELueT3Thfu3EB/pgt3M4F989d/HuJrxwmPgDeAYWg4MQl3yyR45FXI5RC2WIhs6K6sCvfz4uWvKOvqR8pkcBbvYAEoFXjKDiP9HuHStmB13UFO5gl2HsW+fgGlWPikcWnJUtX7pYmsunjR+GOhO/rROdKnhvjtpzE+1S5jm2mSPQlWq1xGbmVoe/8MpNbYmJuZSpr3rjeAkB+amk27TnYw8e3Z+4qhUv3FJfy76rDtIpJu8IraznHRQdOpC0g+iJ//OGWtxT5om1hN72xh4PFW2aj4MNTyZLfUeYx8OESgMoq34JBZmMW5Mkpu5fb3bsYc3NM6t7OFf5nuqzNq9NqDlvAMirzVZhTzAUvzWiWfd0bDPW9Z5kTL+PzmgzX+DWN5abKzgxf8AAAAAElFTkSuQmCC"&gt;DuckDuckGo — Privacy, simplified.&lt;/A&gt;
+           &lt;DT&gt;&lt;A HREF="https://www.google.com/" ADD_DATE="1702636157" ICON="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACIklEQVQ4jYWSS0iUURTHf/fe8RvHooE2VlT2FNqUGWmNEYUR9lhEEVJhUIsoXOQuap1Rq6KHNQt3LaPAIOxhlNTChUwLMU3NR1CklUzg6xvPd1ro2KhTHjjcA/e8/uf/hzmmqsUiEheRLhHxp/2TiDxQ1aK5+ZmFeSJSrwuYiMRVNZKuMxnFz51zu9T3GX/6iPGmRqS/F5WAUMEawuUVRI5UYjwPEWl2zlUYY8YMgIjUW2vPBkPfSV6uYbKvJ+uW3rZSojfuABAEQdw5d96oajHQqr7P8IUqpL8X43lEjp3EK4mBtfgt75l4+4po7U3cytWZPbcyjUlTidv642ipDu7foX7bh2zgs92jDhHpUlWdbNmuEw15OvqweqE7ZjboCAEFADrSjs1LkRM7NAt3+bWRebfYudFx9XguwFqbwePs9z/mT/6NLdAHMBpex28W0/C1Y1Zy05VFM75nUwiAZVGT/v5sgdcA3UurOPUrxvXOFhJD7fOmdn4LeNc5NbpkfWimv5mWZ8KXFKdfXqInOYBnc6gsPEjZ8mKssbQOtvEkMczYl0oK8z3un4lgppbYkhZS3Fp7bnD0Jxeba+lODmTFviFcxq29NeRHDUEQ1DnnqtNSjohIo3Nutx+keNz9gmf9zfQkB0ChYMkK9q2KcaLwMJFQGFV9Y4w5YIwZzyBBI2lRLcD9PVXN/SdFqlokInUi0iEiE9P+UUTuqurmufl/AKTzsFGmvUNUAAAAAElFTkSuQmCC"&gt;Google&lt;/A&gt;
+       &lt;/DL&gt;&lt;p&gt;
+       &lt;DT&gt;&lt;H3 ADD_DATE="1702636181" LAST_MODIFIED="1702636233"&gt;browser&lt;/H3&gt;
+       &lt;DL&gt;&lt;p&gt;
+           &lt;DT&gt;&lt;A HREF="https://brave.com/ja/" ADD_DATE="1702636172" ICON="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAC60lEQVQ4jXWTS2xUdRTGv/O/M713Oi2PyBvlUW2AMjagC4wvikYSF8DKmJCoC1yAbowhstJA4sZggonEuHGFjxJXQlORWm1EomyMaWGCMrxaaqOZMrfzuHNf//O56LSiwrc4yck53++f/HM+wV10o9d7ZongORrTBABRzZWJoXWj4Xf/3ZU7m/FHCw+qjTauyPIzNysLEUWzA9dFlNCvWe+lMJv/7YELP5cAITBbpfQQ2lav2vyeR7s/CmM3mwG0UU/QVRAaEKUxZPKd2TgOwSSMAyf9eKxSPdR3A7MvjBWW9XLHJvLxddSRQZv6ZdWJkto41qBa0+DSqAaTk9oYPGmrm8BqARwr5HsBwACA6Vwa2EatzpdfI7Y/DxkeBL8ZEMz4kOqMpGf6hadPQJ7cBefVt2ibqKf55c15wOo0esRZsLgDe/ZSQDFP7wTSiHqlCHO9SCdsUHa+ADWO6O59zC1o61jo39o2D7hmcNE2g1SOHRYNI3DJcsGi+wQ9WyTduFW0c7Ho2i4Rm0KOviFBI05vuvlf5wFvXij9HmeyRQyfFrx7UEUtWSnD9H/CzIkP6PhlmCCivvOKZs5+Lcy7xSOjlcsAYAiYESC1hufRnicmriqNA7P/ECSsA+Uy9O0PQRK8VVLXE8YW50eAlIAxX7ZuIUz0HKyKiBhWpsFffqL6t4VRXWToFDkzDYGYJimByfwIAHNeAYBzPd6adPuGGp9Yr3bPNpt89QVt0NDmdEUbn37EmR2rbHUD9PbDUhtev2jt3CEaAASAp4rhRGJtEZ4L+XPKOj+cBes1IAxgvz8FnfzD5jyBpSk+e90fbwFoAODw7GdyKmweh6pIe3tWhgcS8/qLMPv6gKEzSVsOWYLiW3McAFuef2cBAK5uuX/vyo7M+7n2/ErU6hpXbrItZ5xagqmJ1D24+XLz85aP/0shW8Bvu70u/7E1/ezrpm51+VePc3Kg2+u6c+eeIuD8k84VB8YLHQfuNpvT36ANgQCEyX9/AAAAAElFTkSuQmCC"&gt;広告ブロッカーで、セキュアで高速なプライベートウェブブラウジング | Brave&lt;/A&gt;
+           &lt;DT&gt;&lt;A HREF="https://www.apple.com/jp/safari/" ADD_DATE="1702636191" ICON="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAB80lEQVQ4jZVTu24aQRQ9d7C3CMuUiCIS0pLGQtDGUlzhRwQxDZ2VJihy2lBbKa00ThHJKR0qPoEoxEjONzBm2VgKkYmCRLu7IOG1ZydFYMzLRW4158x9zOMcwkLYtm1IGckTYU8plQQAIuophfNIRH5Np9PBbD7NgstLZ18p9ZHzWMo0ozCMdQBAENxiOBzB8/wuEVUymY364mC0Wp2KEI70PF89FJ7nKyEc2Wr9eDtXLMRVXghHjsc3S0UXF9/VwcFLjcfjGyWEI4W4yus7C9H56bqrJx8evlGO48xxrusrIZyubdsGk5IKnPMU56Y+0cnJBxQK+zg7+4xisYijo3col19jMBgAADg3wXnMkpIKa0TYM82oLm40vuH09BMAoN1uaz4ej+P6uodEIgEAiMWicF3vOVOKJQ1jTSc2m82lBwaAcvkVNjefamwY6yCiJ2wxkbElavJWnZU8Iwp7QXCniVwutzKxXq+jWq1qHAS3ANBlSuF8OBzpjd3dHWSz2ZVNMpmMXvv+CIBq0D/pMieZfGxNf6Lf7+P4+D22tp7BsizUajVsb+dQKpUAAJ43RK/351ckEm4A90IKVwlpMSZCCrWQpvF/Uu5UpnUPmImnTPPRjJnuJmbylsw01wATaYchvQDYzr2d1W8ATcbUl0U7/wVjx45kN4RH4gAAAABJRU5ErkJggg=="&gt;Safari - Apple（日本）&lt;/A&gt;
+           &lt;DT&gt;&lt;A HREF="https://www.google.com" ADD_DATE="1702636233" ICON="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAADLElEQVQ4jV3TS2hcZRwF8HP+33fvnUcmk0kkaeI0WkhNxJI+TKux1Ag6CAaf4EJQRAs1Fnyt6q5uxLgwigiFFLNQ0IUBNYsubJEabIOPoq4MPnBMaFoXzSQmM5N773zf30WDiGd9OJvDj7geAlAA+OPAwJ3e2GNCuUeEO0kBhUuhlXm29P3uCz99jetlElBuD+BiuZzt7clPkfJsZCRMCSipJGGFzBqDBJoSPFVn7cSu89UtAKACXBgtZ3ri3CcdgR1fd15hjCMgdA6g0JhAaYwXeLkhCqXW8nNuXp/oxaUtIaA7NqLJojHjtdTFoKg2GqJxzFxnO9q6CpBok7DrhnngmtmKu9rxUPBA6y0CnoVzj4++N1Odr/ywynohBOpNKe7fi+KxF1Dt2QcnDkOZBXDpdSarl1RsVomWqkKtjUelr9Y6/nGlz662R8q/6ywM70Fj8kM8vTyG+2Y8K6fJR848iOrgF7DlEfiwSWRFbUltSnNcCk13129Fq5+NlCSXeuafexEvn8ty9uxluMSpOqdnvlvWE5+2Q24+qaJWvbOiiVUxwZi0oP2ZeorZ4TZeHr4RV7v24puf17S7MwMICQi6ixEXflnV3+sjtLluATxazlJh+sUp1DiPWtbgozs6ERqqEFTo9klKgHCeSL0CNFAakgYU40W9X3ZUtKXUz0up/pX9lfcPFvXKegLAUxV6ZW0LhwY6sDv3PVxc8yIZtYEoKVXx3n+lQkLVO+f4xo8f4NXxRJ88tINGrEbW4OjhXr75WBOtpbehKgSNR2ipar/lLdP3HjQMLnooRcnNuIkDvbs5sf8pFHkbMpZYThfR/PMdPGrOQ0xWRZ0CXr2L7yYADE5XTplcOJFuJDEhwUZSpwDaV+hg4hVJYxVzQysYyBuk3iVBiVHrWvJuMLbykgHA6PbSlzYM90ne3uriVCMJnMDI5lYTK42EJ29qaqXTSaJEWLLWrfk5a5cnXtsJ/y+m8tRoNopykwp9HlYCpg6bKf3BQszZPeuMIoUmLlGfzsiie4XPbGP6P+ddU2NHNOBROH+k4dg/PVTHw53Nqw3PsyFap4PDiwv/5fwPFMt5AgGvjjQAAAAASUVORK5CYII="&gt;Google Chrome - Google の高速で安全なブラウザをダウンロード&lt;/A&gt;
+       &lt;/DL&gt;&lt;p&gt;
+   &lt;/DL&gt;&lt;p&gt;
+"""
+
+import Foundation
+struct Folder {
+    let name: String
+    let id: String
+    let parentFolderKey: String?
+}
+
+struct Bookmark {
+    let title: String
+    let url: String
+    let icon: String?
+    let parentFolderKey: String?
+}
+
+func parseBookmarkHTML(_ html: String) -&gt; (folders: [Folder], bookmarks: [Bookmark]) {
+    var folders = [Folder]()
+    var bookmarks = [Bookmark]()
+    var currentFolderKey: String?
+
+    // Split HTML lines by newline character
+    let lines = html.components(separatedBy: .newlines)
+
+    for line in lines {
+        let lowercaseLine = line.lowercased()
+
+        if lowercaseLine.contains("&lt;h3") {
+            // Extract folder name and key
+            if let folder = extractFolder(from: line) {
+                folders.append(folder)
+                currentFolderKey = folder.id
+            }
+        } else if lowercaseLine.contains("&lt;a") {
+            if let bookmark = extractBookmark(from: line, currentFolderKey: currentFolderKey) {
+                bookmarks.append(bookmark)
+            }
+        } else if lowercaseLine.contains("&lt;/dl&gt;") {
+            currentFolderKey = nil
+        }
+    }
+
+    return (folders, bookmarks)
+}
+
+// Helper function to extract folder from HTML line
+func extractFolder(from line: String) -&gt; Folder? {
+    guard let range = line.range(of: #"(?i)&lt;h3[^&gt;]*&gt;(.*?)&lt;\/h3&gt;"#, options: .regularExpression) else {
+        return nil
+    }
+
+    let folderName = String(line[range]).replacingOccurrences(of: #"&lt;[^&gt;]+&gt;"#, with: "", options: .regularExpression).trimmingCharacters(in: .whitespacesAndNewlines)
+    let folderId = UUID().uuidString
+
+    return Folder(name: folderName, id: folderId, parentFolderKey: nil)
+}
+
+// Helper function to extract bookmark from HTML line
+func extractBookmark(from line: String, currentFolderKey: String?) -&gt; Bookmark? {
+    guard let urlRange = line.range(of: #"(?i)href\s*=\s*["']?([^"'\s&lt;]+)"#, options: .regularExpression) else {
+        return nil
+    }
+
+    let url = String(line[urlRange]).replacingOccurrences(
+        of: #"HREF="([^"]*)"#,
+        with: "$1",
+        options: .regularExpression
+    )
+    
+    var title = ""
+    if let titleRange = line.range(of: #"(?i)&gt;([^&lt;]+)&lt;\/a&gt;"#, options: .regularExpression) {
+        let match = String(line[titleRange])
+        if let titleCaptureRange = match.range(of: #"&gt;([^&lt;]+)&lt;"#, options: .regularExpression) {
+            title = String(match[titleCaptureRange].dropFirst().dropLast().trimmingCharacters(in: .whitespacesAndNewlines))
+        }
+    }
+    let icon = extractIcon(from: line)
+
+    return Bookmark(title: title, url: url, icon: icon, parentFolderKey: currentFolderKey)
+}
+
+// Helper function to extract icon from HTML line
+func extractIcon(from line: String) -&gt; String? {
+    guard let iconRange = line.range(of: #"(?i)icon="([^"]*)"#, options: .regularExpression) else {
+        return nil
+    }
+
+    let icon = String(line[iconRange])
+    return icon.isEmpty ? nil : icon
+}
+
+
+let (folderData, bookmarkData) = parseBookmarkHTML(htmlString)
+print("Folders:")
+for folder in folderData {
+    print("\(folder.name), parent: \(folderData.contains(where: { $0.id == folder.parentFolderKey }))")
+}
+
+print("\nBookmarks:")
+for bookmark in bookmarkData {
+    print("\(bookmark.url)\ntitle: \(bookmark.title ?? "None")\n")
+}
+
+print(folderData.count, bookmarkData.count)
+
+
+</string>
+			<key>ModifiedRange</key>
+			<string>{1, 10409}</string>
+			<key>OriginalContent</key>
+			<string></string>
+			<key>OriginalRange</key>
+			<string>{1, 0}</string>
+		</dict>
+	</array>
+	<key>File</key>
+	<string>Chapters/Chapter1.playgroundchapter/Pages/My Playground.playgroundpage/main.swift</string>
+</dict>
+</plist>
